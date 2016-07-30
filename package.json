@@ -1,0 +1,14 @@
+{
+  "name": "use-less-js",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "A javascript framework for single-page web apps",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uselessjs/use-less-js.git"
+  },
+  "scripts": {
+    "test": "bt test"
+  },
+  "main": "src/useless.js"
+}

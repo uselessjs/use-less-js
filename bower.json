@@ -1,0 +1,11 @@
+{
+  "name": "use-less-js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uselessjs/use-less-js.git"
+  },
+  "devDependencies": {
+    "jquery": "3.1.0"
+  }
+}
