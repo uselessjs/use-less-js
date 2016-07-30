@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="../src/useless.js"></script>
+  </head>
+
+  <body>
+    <h1>Hello Plunker!</h1>
+    <a href="#home">home</a>
+    <a href="#report">report</a>
+    <script type="text/javascript">
+    	var test = UseLess.create('Test');
+    	var myApp = UseLess.create("MyApp", ['Test']);
+
+    	myApp.service("MyService", function(){
+    		this.setName = function(name) {
+    			this.name = name;
+    		}
+    		this.getName = function() {
+    			return this.name
+    		}
+    	})
+    	myApp.controller("MyCtrl", ['Test','MyService', function(test, service){
+    		console.info(service)
+    	}]);
+
+    	myApp.route("home", {
+    		'template': "Home"
+    	}).route("report", {
+    		'template': "Report"
+    	})
+    </script>
+  </body>
+
+</html>
