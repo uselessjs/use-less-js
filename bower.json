@@ -1,10 +1,25 @@
 {
   "name": "use-less-js",
+  "description": "A javascript framework for single-page web apps",
+  "main": "src/useless.js",
+  "authors": [
+    "VivekMadurai"
+  ],
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/uselessjs/use-less-js.git"
-  },
+  "keywords": [
+    "MVC",
+    "JS",
+    "Framework"
+  ],
+  "homepage": "https://github.com/uselessjs/use-less-js",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "devDependencies": {
     "jquery": "3.1.0"
   }
