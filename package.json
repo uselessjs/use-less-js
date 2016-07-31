@@ -1,14 +1,25 @@
 {
   "name": "use-less-js",
-  "license": "MIT",
   "version": "1.0.0",
   "description": "A javascript framework for single-page web apps",
+  "main": "src/useless.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "src/useless.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/uselessjs/use-less-js.git"
   },
-  "scripts": {
-    "test": "bt test"
+  "keywords": [
+    "MVC",
+    "JS",
+    "Framework"
+  ],
+  "author": "VivekMadurai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uselessjs/use-less-js/issues"
   },
-  "main": "src/useless.js"
+  "homepage": "https://github.com/uselessjs/use-less-js#readme"
 }
