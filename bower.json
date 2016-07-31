@@ -1,6 +1,7 @@
 {
   "name": "use-less-js",
   "description": "A javascript framework for single-page web apps",
+  "version": "1.0.0",
   "main": "src/useless.js",
   "authors": [
     "VivekMadurai"
